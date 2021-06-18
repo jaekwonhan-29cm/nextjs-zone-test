@@ -1,1 +1,1 @@
-export const buildEnv = 'STAGE'
+export const buildEnv = 'STAGE!'
