@@ -1,0 +1,11 @@
+{
+  "name": "nextjs-zone-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "git@github.com:jaekwonhan-29cm/nextjs-zone-test.git",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ]
+}
