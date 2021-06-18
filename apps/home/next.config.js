@@ -3,7 +3,7 @@ const SPECIAL_ORDER_URL = 'https://jaekwonhan-29cm-special-order.vercel.app'
 
 module.exports = {
   reactStrictMode: true,
-  async rewrite() {
+  async rewrites() {
     return [
       {
         source: '/special-order',
