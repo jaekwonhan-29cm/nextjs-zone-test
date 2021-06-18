@@ -2997,6 +2997,8 @@ fsevents@~2.3.1:
 "nextjs-zone-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "nextjs-zone-test@workspace:."
+  dependencies:
+    typescript: ^4.3.4
   languageName: unknown
   linkType: soft
 
@@ -4570,7 +4572,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@4.3.4:
+"typescript@4.3.4, typescript@^4.3.4":
   version: 4.3.4
   resolution: "typescript@npm:4.3.4"
   bin:
@@ -4580,7 +4582,7 @@ typescript@4.3.4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.3.4#builtin<compat/typescript>":
+"typescript@patch:typescript@4.3.4#builtin<compat/typescript>, typescript@patch:typescript@^4.3.4#builtin<compat/typescript>":
   version: 4.3.4
   resolution: "typescript@patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"
   bin:

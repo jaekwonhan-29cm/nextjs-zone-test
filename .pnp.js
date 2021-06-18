@@ -52,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
         }]
@@ -3586,7 +3587,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["nextjs-zone-test", "workspace:."]
+            ["nextjs-zone-test", "workspace:."],
+            ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
         }]
